@@ -105,8 +105,6 @@ public function parkirKeluar($platNomor) {
     }
 }
 
-
-
     public function getStatusParkir() {
         // Dapatkan status parkir dari tabel parkir
         $sql = "SELECT * FROM parkir";
